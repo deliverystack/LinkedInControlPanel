@@ -1,4 +1,4 @@
-# LinkedInControlPanel
+﻿# LinkedInControlPanel
 
 The LinkedIn Control Panel exposes a control panel for use within LinkedIn pages using desktop browsers, specifically google's chrome browser.
 
@@ -23,6 +23,17 @@ The LinkedIn Control Panel exposes a control panel for use within LinkedIn pages
 - Translate comments from non-primary language
 
 - Format text
+
+
+
+- **Hide Sidebars and Header** – Remove the sidebars from the left (your profile) and right (features). This makes better use of screen space and reduces printing length by allowing elimination of vertical columns that are mainly whitespace.
+- **Page Width**: Specify width of text relative to browser window, allowing reduction of wasted whitespace.
+- **Remove Profile Images**: Loading pages with thousands of comments consumes significant memory. Removing user profile images reduces memory consumption as well as printing length.
+- **Remove Images from Comments**: Similar to profile images, images in comments consume memory. If such images are not necessary, for example when using an AI to analyze text comments, remove them.
+- **Load Prior and Additional Comments**: LinkedIn loads only one page of comments, in each thread. This option causes it to load the previous and subsequent comments in such threads.
+-- **Expand More Links**: LinkedIn hides text in long comments. This option causes full text to appear for each comment.
+-- **Order by Most Recent**: LinkedIn defaults to "Most relevant" view, which makes it impossible to load all comments. This option allows the page to load all of the comments.
+-- **Show Translation**: Convert comments in other languages to the user's preferred language.
 
 ## Test Cases
 
